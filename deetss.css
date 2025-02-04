@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Pushes .letter to the bottom */
+    height: 100vh; /* Ensures the body takes the full viewport height */
+    margin: 0;
+    background-color: #f9e3e3;
+    font-family: 'Arial', sans-serif;
+}
+
+.header_text {
+    margin-left: 2.5%;
+    font-size: 1.75em;
+    color: #d32f2f;
+}
+
+.hatdog {
+    margin-left: 2.5%;
+    font-size: 1.25em;
+    color: #d32f2f;
+}
+
+.h2_t {
+    margin-left: 2.5%;
+    padding: 0;
+    line-height: 0.5;
+    font-size: 1.5em;
+    color: #d32f2f;
+}
+
+.hone {
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 2.25em;
+    color: #d32f2f;
+}
+
+
+.letter {
+    padding: 0px; 
+    max-width: 80%;
+    text-align: center;
+    font-family: "Comic Sans MS", "Segoe Script", cursive;
+    font-size: 20px;
+    margin: 0 auto 0 auto; 
+}
+.romantic-gif {
+    display: block;
+    margin: 20px auto; /* Centers the GIF */
+    max-width: 200px; /* Adjust the size as needed */
+    height: auto;
+}
